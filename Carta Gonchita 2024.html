@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            color: aliceblue;
+        }
+        header {
+            text-align: center;
+            background-color: #364156;
+            margin-top: 0%;
+        }
+        h3 { 
+            text-align: center;
+        }
+        main {
+            text-align: center;
+            border: 2px solid transparent;
+        }
+        a.button {
+            display: inline-block;
+            padding: 15px 25px;
+            background-color: #7C7C7C;
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 5px;
+            letter-spacing: 4px;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        a.button:hover {
+            background: #EFC88B;
+            color: #050801;
+            box-shadow: 0 0 2px #d1430b,
+                        0 0 15px #eb0909,
+                        0 0 15px #d10e0e,
+                        0 0 75px #e40707;
+        }
+        .articulo:hover {
+            transform: scale(1.05);
+        }
+        .articulos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Siempre 3 columnas */
+    gap: 40px;
+    justify-content: center;
+}
+        .articulo {
+            position: relative;
+            background-color: white;
+            width: 100%;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 10px;
+            transition: .3s;
+            padding: 20px;
+        }
+        .imagen {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+        }
+        .imagen img {
+            width: 240px;
+            height: auto;
+        }
+        .nombre {
+            color: #050801;
+            text-transform: uppercase;
+            font-size: large;
+            text-align: center;
+        }
+        .enlace {
+            text-align: center;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+   
+    <header>
+        <hr>
+        <h1>Carta Reyes Gonchita</h1>
+        <hr>
+    </header>
+    <main>
+        <p class="ituloteclado">Teclado</p>
+        <section>
+            <div class="articulos">
+                <div class="articulo">
+                    <div class="imagen">
+                        <img src="/Imagenes/base teclado.jpg" alt="IMAGEN Teclado">
+                    </div>
+                    <div class="nombre">
+                        <hr><span>Base Teclado</span>
+                    </div>
+                    <div class="enlace">
+                        <a href="https://www.amazon.es/dp/B0CS63YZ7S/ref=sbl_dpx_es-pc-accessories-keyboards_B0CQ87LGWH_0?th=1"class="button" target="_blank">Ir</a>
+                    </div>
+                </div>
+                <div class="articulo">
+                    <div class="imagen">
+                        <img src="/Imagenes/Switches.jpg" alt="IMAGEN Teclado">
+                    </div>
+                    <div class="nombre">
+                        <hr><span>Switches</span>
+                    </div>
+                    <div class="enlace">
+                        <a href="https://www.amazon.es/dp/B0BBPD1W9W/?coliid=I2308XJ81Q5QLY&colid=1BD40SALNOK2G&ref_=list_c_wl_lv_ov_lig_dp_it&th=1" class="button" target="_blank">Ir</a>
+                    </div>
+                </div>
+                <div class="articulo">
+                    <div class="imagen">
+                        <img src="/Imagenes/teclas.jpg" alt="IMAGEN Teclado">
+                    </div>
+                    <div class="nombre">
+                        <hr><span>Teclas</span>
+                    </div>
+                    <div class="enlace">
+                        <a href="https://www.amazon.es/dp/B0CMDDWGVJ/?coliid=I3QU2O778O4E83&colid=1BD40SALNOK2G&ref_=list_c_wl_lv_ov_lig_dp_it&th=1" class="button" target="_blank">Ir</a>
+                    </div>
+                </div>
+              
+              <div class="articulo">
+                <div class="imagen">
+                    <img src="/Imagenes/travieso.jpg" alt="IMAGEN Teclado">
+                </div>
+                <div class="nombre">
+                    <hr><span>Posters 1</span>
+                </div>
+                <div class="enlace">
+                    <a href="https://www.amazon.es/gp/product/B0DB1KT9YD/ref=ox_sc_act_title_5?smid=A292Q0Y5JN8135&th=1" class="button" target="_blank">Ir</a>
+                </div>
+            </div>
+            <div class="articulo">
+                <div class="imagen">
+                    <img src="/Imagenes/raton.jpg" alt="IMAGEN Teclado">
+                </div>
+                <div class="nombre">
+                    <hr><span>Raton</span>
+                </div>
+                <div class="enlace">
+                    <a href="https://www.amazon.es/gp/product/B0CZMHPYVH/ref=ox_sc_act_title_8?smid=A5BRFP96YHI0I&th=1" class="button" target="_blank">Ir</a>
+                </div>
+            </div>
+            <div class="articulo">
+                <div class="imagen">
+                    <img src="/Imagenes/the creator.jpg" alt="IMAGEN Teclado">
+                </div>
+                <div class="nombre">
+                    <hr><span>Posters 2 </span>
+                </div>
+                <div class="enlace">
+                    <a href="https://www.amazon.es/gp/product/B0DB1LNGQV/ref=ox_sc_saved_title_1?smid=A1P2K7YSF7ZDS2&th=1" class="button" target="_blank">Ir</a>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
